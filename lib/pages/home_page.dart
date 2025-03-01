@@ -38,8 +38,28 @@ class HomePage extends StatelessWidget {
                 "Let's order fresh items for you",
                 style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
               ),
+
+          ),
+          SizedBox(
+            height: 4,
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 24.0),
+            child: Text("Let's order fresh items for you",
+                style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold)),
+          ),
+          SizedBox(
+            height: 24,
+            
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 24.0),
+            child: Text(
+              "Fresh Items",
+              style: TextStyle(fontSize: 16),
             ),
-            const SizedBox(height: 24),
+          ),
+             SizedBox(height: 24),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 24.0),
               child: Text(
@@ -72,7 +92,7 @@ class HomePage extends StatelessWidget {
                   );
                 },
               ),
-            ),
+            ),//expanded
           ],
         ),
       ),
