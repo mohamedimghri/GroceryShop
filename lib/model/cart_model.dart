@@ -28,7 +28,7 @@ class CartModel extends ChangeNotifier {
   double calculateTotal() {
     double totalPrice = 0.0;
     for (var item in _cartItems) {
-      totalPrice += double.parse(item[1]); // Corrected index
+      totalPrice += double.parse(item[1]);
     }
     return totalPrice;
   }
