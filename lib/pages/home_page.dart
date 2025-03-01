@@ -76,6 +76,7 @@ class HomePage extends StatelessWidget {
                     gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
                       childAspectRatio: 1 / 1.3,
+                      
                     ),
                     itemBuilder: (BuildContext context, int index) {
                       return GroceryItemTile(
